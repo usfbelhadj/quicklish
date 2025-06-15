@@ -22,7 +22,7 @@ export default function LandingPage() {
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-rose-400 to-blue-500 flex items-center justify-center shadow-lg">
-              <Bolt className="h-6 w-6 text-white" />
+              <img src="/images/logo.png" alt="Logo" className="h-6 w-6" />
             </div>
             <div>
               <span className="text-2xl font-bold bg-gradient-to-r from-rose-500 to-blue-600 bg-clip-text text-transparent">
@@ -33,6 +33,7 @@ export default function LandingPage() {
               </p>
             </div>
           </div>
+
           <div className="hidden md:flex space-x-8">
             <Link
               href="#features"
@@ -67,7 +68,7 @@ export default function LandingPage() {
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
             <div className="h-24 w-24 rounded-2xl bg-gradient-to-br from-rose-400 to-blue-500 flex items-center justify-center mx-auto mb-8 shadow-2xl">
-              <Bolt className="h-14 w-14 text-white" />
+              <img src="/images/logo.png" alt="Logo" className="h-28 w-28" />
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="bg-gradient-to-r from-rose-500 to-blue-600 bg-clip-text text-transparent">
@@ -635,7 +636,7 @@ export default function LandingPage() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-3 mb-6 md:mb-0">
               <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-rose-400 to-blue-500 flex items-center justify-center shadow-lg">
-                <Bolt className="h-6 w-6 text-white" />
+                <img src="/images/logo.png" alt="Logo" className="h-6 w-6" />
               </div>
               <div>
                 <span className="text-xl font-bold bg-gradient-to-r from-rose-500 to-blue-600 bg-clip-text text-transparent">
@@ -646,6 +647,7 @@ export default function LandingPage() {
                 </p>
               </div>
             </div>
+
             <div className="flex space-x-8">
               <Link
                 href="#"
