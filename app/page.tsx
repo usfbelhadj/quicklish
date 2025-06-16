@@ -21,9 +21,8 @@ export default function LandingPage() {
       <header className="container mx-auto px-4 py-6">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-rose-400 to-blue-500 flex items-center justify-center shadow-lg">
-              <img src="/images/logo.png" alt="Logo" className="h-6 w-6" />
-            </div>
+            <img src="/images/logo.png" alt="Logo" className="h-6 w-6" />
+
             <div>
               <span className="text-2xl font-bold bg-gradient-to-r from-rose-500 to-blue-600 bg-clip-text text-transparent">
                 Quicklish
@@ -67,7 +66,7 @@ export default function LandingPage() {
       <section className="container mx-auto px-4 py-20 text-center">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12">
-            <div className="h-24 w-24 rounded-2xl bg-gradient-to-br from-rose-400 to-blue-500 flex items-center justify-center mx-auto mb-8 shadow-2xl">
+            <div className="h-24 w-24  flex items-center justify-center mx-auto mb-8">
               <img src="/images/logo.png" alt="Logo" className="h-28 w-28" />
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
@@ -635,7 +634,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-3 mb-6 md:mb-0">
-              <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-rose-400 to-blue-500 flex items-center justify-center shadow-lg">
+              <div className="h-10 w-10 rounded-xl flex items-center justify-center ">
                 <img src="/images/logo.png" alt="Logo" className="h-6 w-6" />
               </div>
               <div>
