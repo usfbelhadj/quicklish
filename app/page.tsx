@@ -84,13 +84,15 @@ export default function LandingPage() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-rose-500 to-blue-600 hover:from-rose-600 hover:to-blue-700 text-white px-10 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-            >
-              <Download className="mr-2 h-5 w-5" />
-              Download for Android
-            </Button>
+            <a href="/downloads/app-release.apk" download>
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-rose-500 to-blue-600 hover:from-rose-600 hover:to-blue-700 text-white px-10 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                <Download className="mr-2 h-5 w-5" />
+                Download for Android
+              </Button>
+            </a>
             <Button
               size="lg"
               variant="outline"
@@ -615,13 +617,15 @@ export default function LandingPage() {
               companion.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-rose-500 to-blue-600 hover:from-rose-600 hover:to-blue-700 text-white px-10 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-              >
-                <Smartphone className="mr-2 h-5 w-5" />
-                Download for Android
-              </Button>
+              <a href="/downloads/app-release.apk" download>
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-rose-500 to-blue-600 hover:from-rose-600 hover:to-blue-700 text-white px-10 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+                >
+                  <Download className="mr-2 h-5 w-5" />
+                  Download for Android
+                </Button>
+              </a>
             </div>
 
             {/* Google Play Badge */}
